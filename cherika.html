@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="singleRooms.css">
+    <link rel="stylesheet" href="hostels.css">
+    <link rel="stylesheet" href="cherika.css">
+    <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>laikipiaHostels</title>
+</head>
+<body>
+    <div class="topGlass" >
+        <!--the top content ,ie sitename search bar ,locations-->
+       <div class="glass1">
+       
+       
+           <div class="sitename">
+            <a href="hostels.html">
+               <img src="icon3.jpg" >
+              
+               <h1>YouHostels</h1>
+            </a></div>
+       </div>
+       <div class="locations">
+            <a href="hostels.html">   
+           <button class="tablinks" onclick="openTab(event)" > Home</button></a>
+           <a href="ndoroHostels.html">
+           <button class="tablinks" onclick="openTab(event)" >Ndoro</button></a>
+           <button class="tablinks" onclick="openTab(event, 'Home')" id="cherika" >Cherika</button>
+           <a href="nyumba3.html">
+           <button class="tablinks" onclick="openTab(event, 'Home')" >Nyumba3</button></a>
+           <a href="comrades.html">
+           <button class="tablinks" onclick="openTab(event, 'Home')" >Comrades</button></a>
+           <a href="taili2.html">
+           <button class="tablinks" onclick="openTab(event, 'Home')" >Taili2</button></a>
+           <a href="karuga.html">
+           <button class="tablinks" onclick="openTab(event, 'Home')" >Karuga</button></a>
+       </div>
+       <?php include("content.html");?>
+       <div class="box">
+           <!--search bar code-->
+           <input type="search" name="search" id="search" placeholder="type here ..." checked>
+           <label for="source" class="icon" >
+               <i class="fas fa-search"></i>
+               
+           </label>
+       </div>
+       </div>
+       <!--cherika rooms content code-->
+       <div class="singleRooms">
+        <div class="partyImages">
+        <header>Connect with <br> others</header>
+        <img src="party1.jpg" >
+        <img src="party2.jpg">
+        <button arial-expanded = "false" type="button">Join</button>
+    </div>
+    <div class="cherika">
+    <header>:Cherika self contained:</header>
+       <div class="roomContainer">
+        <img src="pic1.jpg" >
+        &nbsp;&nbsp;&nbsp;
+        <div class="roomAbout">
+            <!--all about the room-->
+        <header>Amaizing Grace Heights</header>
+        <h3>Show on map</h3>
+        <h4>Distance from campus( )</h4>
+        <p>
+            The ideal bedroom has enough light to make it feel cheery and spacious and plenty of extra light for activities such as a reading.
+        </p>
+        <h3>likes: </h3>
+    </div>
+
+<button arial-expanded = "false" type="button">Show prices</button>
+       </div>
+       <h4>Hostel OverView</h4>
+       <div class="roomContainer1">
+        <img src="ndoroShop.jpg" >
+        &nbsp;&nbsp;&nbsp;
+        <img src="ndoroField.jpg" >
+        &nbsp;&nbsp;&nbsp;
+        <img src="chrome2.jpg" >
+        &nbsp;&nbsp;&nbsp;
+
+       </div>
+    </div>
+    <div class="cherika">
+       <header>Cherika singleRooms</header>
+       <!--put each hostel in a roomcontainer-->
+       <div class="roomContainer">
+        <img src="pic2.jpg" >
+        &nbsp;&nbsp;&nbsp;
+        <div class="roomAbout">
+        <header>Limitless cherika</header>
+        <h3>Show on map</h3>
+        <h4>Distance from campus( )</h4>
+        <p>
+            The ideal bedroom has enough light to make it feel cheery and spacious and plenty of extra light for activities such as a reading.
+        </p>
+    </div>
+    
+<button arial-expanded = "false" type="button">Show prices</button>
+       </div>
+       <h4>Hostel OverView</h4>
+       <div class="roomContainer1">
+        <img src="chrome2.jpg" >
+        &nbsp;&nbsp;&nbsp;
+        <img src="chrome2.jpg" >
+        &nbsp;&nbsp;&nbsp;
+        <img src="chrome2.jpg" >
+        &nbsp;&nbsp;&nbsp;
+
+    </div>
+</div>
+       </div>
+
+
+
+
+
+<!--need a next and prev button here-->
+
+       <!--closing single rooms -->
+    </div>
+                <!--base content-->
+                <div class="bottomGlass">
+                    <div class="bottomGlass_content">
+                    <header>Customer Service Help</header>
+                    <!--links and more here below-->
+                </div>
+    
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="bottomGlass_content">
+                    <header>Join the team</header>
+                    <!--links and more here below-->
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="bottomGlass_content">
+                    <header>School hostel room</header>
+                    <!--links and more here below-->
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="bottomGlass_content">
+                    <header>your account</header>
+                    <!--links and more here below-->
+                    
+                    </div>
+                
+                </div>
+</body>
+</html>

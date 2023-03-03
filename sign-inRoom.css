@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(chrome3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.glass1{
+    width:70vh;
+    height: 60vh;
+    display: grid;
+    align-items:center;
+    justify-content:center;
+      
+    background-color:rgba(251, 220, 95, 0.413);
+    border-radius: 5%;
+}
+h1{
+    font-style: bold;
+    font-weight: 1500;
+}
+form{
+    
+    width:70vh;
+    height: 60vh;
+    display: grid;
+    align-items:center;
+    justify-content:center;
+  
+    
+    border-radius: 5%;
+}
+input.username{
+    height: 20px;
+
+}
+input{
+    width: 350px;
+    height: 40px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    display: block;
+    font-size: 22px;
+}
+.showpassword{
+    display: flex;
+    align-items: center;
+    
+}
+
+.show{
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+button{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(38, 165, 244);
+    border-color: rgb(38, 165, 244) ;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 10%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.log-in{
+    color: white;
+    border: bottom 0px;
+    text-decoration: none;
+}
+
+
+button:hover {
+    background-color: #62e2f9; /* Green */
+    color: rgb(254, 252, 252);
+}
+
+
+
+

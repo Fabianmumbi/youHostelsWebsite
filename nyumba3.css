@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+h4{
+    font-family: Arial, sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 20px;
+    margin: 5px;
+    color:white;
+    justify-self: center;
+
+}
+.nyumba3{
+    border-top: grey thick solid;
+    margin-top: 10px;
+}
+.locations #nyumba3{
+    background-color: #ff0000;
+}

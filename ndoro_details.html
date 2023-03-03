@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hostels.css">
+    <link rel="stylesheet" href="ndoro_details.css">
+    <title>laikipiaHostels</title>
+</head>
+<body>
+    <div class="topGlass" >
+        <!--the top content ,ie sitename search bar ,locations-->
+       <div class="glass1">
+       
+       
+           <div class="sitename">
+            <a href="hostels.html">
+               <img src="icon3.jpg" >
+              
+               <h1>YouHostels</h1>
+            </a></div>
+       </div>
+       <div class="locations">
+     <a href="hostels.html">
+        <button class="tablinks" onclick="openTab(event, 'Home')" >Home</button></a>
+        <a href="ndoroHostels.html">
+        <button class="tablinks" onclick="openTab(event)" >Ndoro</button></a>
+        <a href="cherika.html">
+        <button class="tablinks" onclick="openTab(event)" >Cherika</button></a>
+        <a href="nyumba3.html">
+            <button class="tablinks" onclick="openTab(event, 'Home')" >Nyumba3</button></a>
+            <a href="comrades.html">
+            <button class="tablinks" onclick="openTab(event, 'Home')" >Comrades</button></a>
+            <a href="taili2.html">
+            <button class="tablinks" onclick="openTab(event, 'Home')" >Taili2</button></a>
+            <a href="karuga.html">
+            <button class="tablinks" onclick="openTab(event, 'Home')" >Karuga</button></a>
+    </div>
+       <?php include("content.html");?>
+       <div class="box">
+           <!--search bar code-->
+           <input type="search" name="search" id="search" placeholder="type here ..." checked>
+           <label for="source" class="icon" >
+               <i class="fas fa-search"></i>
+               
+           </label>
+       </div>
+       </div>
+       <!--content code below-->
+       <div class="content_section">
+        
+        <div class="photos_section">
+            <header>ndoro Hostels</header>
+            <h5>ndoro location on map</h5>
+            <div class="photos_row1">
+            <div class="photos_column">
+                <img src="chrome1.jpg" alt="">
+                <img src="chrome2.jpg" alt="">
+            </div>
+            <div>
+            <img src="chrome3.jpg" id="big_image"></div>
+        </div>
+            <div class="photos_row2">
+                <img src="chrome1.jpg" alt="">
+                <img src="chrome2.jpg" alt="">
+                <img src="chrome3.jpg" alt="">
+                <img src="chrome1.jpg" alt="">
+                <img src="chrome3.jpg" alt="">
+            </div>
+            
+        </div>
+        <!--all about the hostel-->
+        <header>Most popular facilities</header>
+        <div class="facilities">
+           
+            <img src="pngwing.com.png" alt=""> <h4>Free Wifi</h4>
+             <img src="pngwing.com (1).png" alt=""> <h4>No Bar Around!</h4>
+            <img src="townLogo.png" alt=""><h4> No Center Around!</h4>
+            <img src="shopLogo.png" alt=""> <h4>Personal Shop Around</h4>
+        </div>
+        <!--people comments on the hostels-->
+            <header>See What Students Love most Here!</header>
+            <div class="loved_details">
+                <div class="loved_comments">
+                    “we would like to thanks to boy on the Recepcion. he was very efficient and helped us also with our personal trouble during our stay . he is a good profesional .”
+                </div>
+                <div class="loved_comments">
+                    “we would like to thanks to boy on the Recepcion. he was very efficient and helped us also with our personal trouble during our stay . he is a good profesional .”
+                </div>
+                <div class="loved_comments">
+                    “we would like to thanks to boy on the Recepcion. he was very efficient and helped us also with our personal trouble during our stay . he is a good profesional .”
+                </div>
+                
+            </div>
+            <!--property surroundings-->
+            <header>Hostel surroundings *</header>
+            <h4>students like walking around the neighbourhood!</h4>
+            <div class="surroundings">
+                <div class="what_nearby">
+                    <h3>what's nearby</h3>
+                    <h4>A football field</h4>
+                    <h4>Nyahururu-Nakuru road</h4>
+                    <h4>A lake</h4>
+
+                    
+                </div>
+                <div class="top_attractions">
+                    <h3>Top attractions</h3>
+                    <h4>lake ...</h4>
+                    <h4>View point</h4>
+                </div>
+            </div>
+
+            <header>Most popular facilities</header>
+            <div class="facilities">
+               
+                <img src="pngwing.com.png" alt=""> <h4>Free Wifi</h4>
+                 <img src="pngwing.com (1).png" alt=""> <h4>No Bar Around!</h4>
+                <img src="townLogo.png" alt=""><h4> No Center Around!</h4>
+                <img src="shopLogo.png" alt=""> <h4>Personal Shop Around</h4>
+            </div>
+            <!--what in the room-->
+            <div class="about_room">
+                <header>What in the rooms</header>
+                <h4>Black metallic bed</h4>
+                <h4>Mattress</h4>
+                <h4>A Table</h4>
+                <h4>A Chair</h4>
+                <h4>No Tiles</h4>
+                <h4>White Ceiling</h4>
+                <h4>wall color</h4>
+                <h4>One window</h4>
+                <h4>One power plug</h4>
+                <h4>Tokens are not used</h4>
+            </div>
+        <!--hostel rules-->
+        <div class="rules">
+            <header>Hostel rules</header>
+            <h4><img src="closedGate.png" alt="">Gate close time:</h4>
+            <h4><img src="openGate.png" alt="">Gate open time:</h4>
+
+
+        </div>
+        <!--what people also search for
+        <div class="common_search">
+            <div class="room_container">
+                <img src="ndoroShop.jpg" alt="">
+            </div>
+            <div class="room_container">
+                <img src="ndoroShop.jpg" alt="">
+            </div>
+            <div class="room_container">
+                <img src="ndoroShop.jpg" alt="">
+            </div>
+        </div>-->
+
+                <!--base content-->
+                <div class="bottomGlass">
+                    <div class="bottomGlass_content">
+                    <header>Customer Service Help</header>
+                    <!--links and more here below-->
+                </div>
+    
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="bottomGlass_content">
+                    <header>Join the team</header>
+                    <!--links and more here below-->
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="bottomGlass_content">
+                    <header>School hostel room</header>
+                    <!--links and more here below-->
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="bottomGlass_content">
+                    <header>your account</header>
+                    <!--links and more here below-->
+                    
+                    </div>
+                
+                </div>
+       </div>
+</body>
+</html>

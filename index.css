@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    min-height: 100vh;
+    display:grid;
+    justify-content:center;
+    margin-bottom: 80px;
+    align-items: center;
+    background-image: url(chrome3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.menu{
+    min-width: 100vh;
+    position:relative;
+    display:flex;
+    justify-content:top;
+    margin-left: -1%;
+}
+h1{
+    font-size: 50px;
+    color:white;
+    font-style: bold;
+}
+h2{
+    font-size: 40px;
+    font-style:bold;
+    color:rgb(39, 1, 1);
+    font-weight: 500;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(2, 116, 76, 0.476);
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+
+}
+button:hover{
+    background-color: rgba(3, 106, 120, 0.476);opacity: 0.5;
+
+}
+.explore{
+    color: darkorange;
+}
+h4{
+    font-size: large;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color:white;
+    text-decoration: none;
+
+}
+.glass2{
+    position: relative;
+    display: inline-block;
+    background-color: #3e8e41;
+    margin-right: 5%;
+}
+.glass2-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  
+}
+.glass2-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .glass2-content a:hover {background-color: #097d1795;}
+
+.glass2:hover .glass2-content {display: block;}
+
+.glass2:hover .menu {background-color: #3e8e41;}
